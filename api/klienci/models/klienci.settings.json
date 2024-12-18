@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kliencis",
+  "info": {
+    "name": "Klienci"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "street": {
+      "type": "string"
+    },
+    "houseno": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "nip": {
+      "type": "string"
+    },
+    "zipcode": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "string"
+    }
+  }
+}

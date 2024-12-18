@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Fanuc-CMS.strapi_administrator"},{"v":{"$numberInt":"2"},"unique":true,"key":{"username":{"$numberInt":"1"}},"name":"username_1","ns":"Fanuc-CMS.strapi_administrator","background":true}],"uuid":"972020636000463db02efb207f5bea11"}

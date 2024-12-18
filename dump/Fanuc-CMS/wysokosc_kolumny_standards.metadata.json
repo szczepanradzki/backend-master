@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Fanuc-CMS.wysokosc_kolumny_standards"},{"v":{"$numberInt":"2"},"unique":true,"key":{"name":{"$numberInt":"1"}},"name":"name_1","ns":"Fanuc-CMS.wysokosc_kolumny_standards","background":true}],"uuid":"24d21e809dbf4ea787f3b3d8410fdf5d"}

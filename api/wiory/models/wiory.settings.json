@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wiories",
+  "info": {
+    "name": "Wióry"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "machines": {
+      "collection": "machines",
+      "via": "wiories"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "Opis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "part-description.opis-urzadzenia"
+    },
+    "default": {
+      "type": "boolean"
+    }
+  }
+}

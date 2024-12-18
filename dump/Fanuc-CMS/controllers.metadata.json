@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Fanuc-CMS.controllers"},{"v":{"$numberInt":"2"},"unique":true,"key":{"name":{"$numberInt":"1"}},"name":"name_1","ns":"Fanuc-CMS.controllers","background":true}],"uuid":"7851c56ea47f4f6882ddebac66a74010"}

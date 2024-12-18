@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/kliencis",
+      "handler": "klienci.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kliencis/count",
+      "handler": "klienci.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/kliencis/:id",
+      "handler": "klienci.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/kliencis",
+      "handler": "klienci.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/kliencis/:id",
+      "handler": "klienci.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/kliencis/:id",
+      "handler": "klienci.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

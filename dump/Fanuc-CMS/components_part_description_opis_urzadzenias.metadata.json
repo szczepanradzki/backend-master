@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Fanuc-CMS.components_part_description_opis_urzadzenias"}],"uuid":"b0c2dfca2d0b43d697f7342a79f2f5f3"}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/opcje-do-stolows",
+      "handler": "opcje-do-stolow.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opcje-do-stolows/count",
+      "handler": "opcje-do-stolow.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/opcje-do-stolows/:id",
+      "handler": "opcje-do-stolow.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/opcje-do-stolows",
+      "handler": "opcje-do-stolow.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/opcje-do-stolows/:id",
+      "handler": "opcje-do-stolow.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/opcje-do-stolows/:id",
+      "handler": "opcje-do-stolow.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "metrols",
+  "info": {
+    "name": "Metrol"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "machines": {
+      "collection": "machines",
+      "via": "metrols"
+    },
+    "price": {
+      "type": "biginteger"
+    },
+    "Opis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "part-description.opis-urzadzenia"
+    },
+    "default": {
+      "type": "boolean"
+    }
+  }
+}

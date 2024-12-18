@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tables",
+  "info": {
+    "name": "Tables"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "machines": {
+      "collection": "machines",
+      "via": "tables",
+      "dominant": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "opcje_do_stolows": {
+      "via": "tables",
+      "collection": "opcje-do-stolow",
+      "dominant": true
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "Opis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "part-description.opis-urzadzenia"
+    },
+    "default": {
+      "type": "boolean"
+    }
+  }
+}

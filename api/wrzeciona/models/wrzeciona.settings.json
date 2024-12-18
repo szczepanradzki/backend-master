@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wrzecionas",
+  "info": {
+    "name": "Wrzeciona"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "machines": {
+      "collection": "machines",
+      "via": "wrzecionas",
+      "dominant": true
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "Opis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "part-description.opis-urzadzenia"
+    },
+    "default": {
+      "type": "boolean"
+    }
+  }
+}

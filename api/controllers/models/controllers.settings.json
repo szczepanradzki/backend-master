@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "controllers",
+  "info": {
+    "name": "Controllers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Opis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "part-description.opis-urzadzenia"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "machines": {
+      "collection": "machines",
+      "via": "controllers"
+    },
+    "default": {
+      "type": "boolean"
+    }
+  }
+}

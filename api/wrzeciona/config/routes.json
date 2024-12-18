@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/wrzecionas",
+      "handler": "wrzeciona.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wrzecionas/count",
+      "handler": "wrzeciona.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/wrzecionas/:id",
+      "handler": "wrzeciona.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/wrzecionas",
+      "handler": "wrzeciona.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/wrzecionas/:id",
+      "handler": "wrzeciona.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/wrzecionas/:id",
+      "handler": "wrzeciona.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

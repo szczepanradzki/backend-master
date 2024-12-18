@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_part_description_opis_urzadzenias",
+  "info": {
+    "name": "Opis urządzenia",
+    "icon": "check"
+  },
+  "options": {},
+  "attributes": {
+    "short_description": {
+      "type": "richtext"
+    },
+    "full_description": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_additional_services_opcje_dodatkowes",
+  "info": {
+    "name": "Opcje dodatkowe",
+    "icon": "dumbbell"
+  },
+  "options": {},
+  "attributes": {
+    "transport": {
+      "type": "boolean"
+    },
+    "szkolenia": {
+      "type": "boolean"
+    },
+    "guarantee": {
+      "type": "boolean"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "machines",
+  "info": {
+    "name": "Machines"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "controllers": {
+      "via": "machines",
+      "collection": "controllers",
+      "dominant": true
+    },
+    "column_height_advs": {
+      "via": "machines",
+      "collection": "wysokosc-kolumny-adv",
+      "dominant": true
+    },
+    "wiories": {
+      "via": "machines",
+      "collection": "wiory",
+      "dominant": true
+    },
+    "blums": {
+      "via": "machines",
+      "collection": "blum",
+      "dominant": true
+    },
+    "renishaws": {
+      "via": "machines",
+      "collection": "renishaw",
+      "dominant": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "metrols": {
+      "via": "machines",
+      "collection": "metrol",
+      "dominant": true
+    },
+    "wrzecionas": {
+      "via": "machines",
+      "collection": "wrzeciona"
+    },
+    "wysokosc_kolumny_standards": {
+      "via": "machines",
+      "collection": "wysokosc-kolumny-standard"
+    },
+    "tables": {
+      "via": "machines",
+      "collection": "tables"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "Opis": {
+      "type": "component",
+      "repeatable": false,
+      "component": "part-description.opis-urzadzenia"
+    },
+    "Advance": {
+      "type": "boolean",
+      "required": false,
+      "default": false
+    }
+  }
+}

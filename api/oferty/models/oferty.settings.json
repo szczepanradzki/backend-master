@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "oferties",
+  "info": {
+    "name": "oferty"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nr_oferty": {
+      "type": "string"
+    },
+    "maszyna": {
+      "type": "string"
+    },
+    "blum": {
+      "type": "string"
+    },
+    "sterownik": {
+      "type": "string"
+    },
+    "klient": {
+      "type": "string"
+    },
+    "metrol": {
+      "type": "string"
+    },
+    "opcje_do_stolow": {
+      "type": "string"
+    },
+    "renishaw": {
+      "type": "string"
+    },
+    "uslugi": {
+      "type": "string"
+    },
+    "stol": {
+      "type": "string"
+    },
+    "sprzedawca": {
+      "type": "string"
+    },
+    "wiory": {
+      "type": "string"
+    },
+    "wrzeciona": {
+      "type": "string"
+    },
+    "wysokosc_adv": {
+      "type": "string"
+    },
+    "wysokosc_standard": {
+      "type": "string"
+    },
+    "pdf": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "komentarz": {
+      "type": "text"
+    },
+    "Suma": {
+      "type": "decimal"
+    }
+  }
+}

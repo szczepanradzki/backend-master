@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/renishaws",
+      "handler": "renishaw.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/renishaws/count",
+      "handler": "renishaw.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/renishaws/:id",
+      "handler": "renishaw.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/renishaws",
+      "handler": "renishaw.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/renishaws/:id",
+      "handler": "renishaw.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/renishaws/:id",
+      "handler": "renishaw.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

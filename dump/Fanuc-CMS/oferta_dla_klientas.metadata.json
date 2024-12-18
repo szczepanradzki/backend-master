@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"Fanuc-CMS.oferta_dla_klientas"},{"v":{"$numberInt":"2"},"unique":true,"key":{"nr_oferty":{"$numberInt":"1"}},"name":"nr_oferty_1","background":true,"ns":"Fanuc-CMS.oferta_dla_klientas"}],"uuid":"55dd68558e714d808943556ba31a6a31"}
